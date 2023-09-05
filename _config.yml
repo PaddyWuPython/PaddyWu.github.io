@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://piterjia.github.io
+url: https://PaddyWu.github.io
 date_format: "ordinal"
-title: 云码
+title: PaddyWuBIT
 subtitle: "Code can change the world, We change code!"
-description: "全栈技术开发、业余技术管理、足球爱好者。"
-keywords: hongjun, jnger, java, 全栈, python, android, iOS, spring
-timezone: China/Tianjin
+description: "信息管理与信息系统"
+keywords: Python,SQL,SPSS,Stata,Excel/Word/PPT,ML
+timezone: China/BeiJing
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: piterjia/piterjia.github.io
+repository: PaddyWuPython/PaddyWu.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -21,10 +21,10 @@ components:
     # 分享
     share:
         enabled: false
-    # 不蒜子访问统计
+    # 访问统计
     busuanzi:
         enabled: true
-        start_date: 2020-05-03
+        start_date: 2023-07-15
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -33,12 +33,12 @@ compress_html:
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Piter Jia
+author: Paddy Wu
 organization: 
 organization_url: 
-github_username: piterjia
-location: Tianjin, China
-email: jiahongjun86@126.com
+github_username: PaddyWu
+location: BeiJing, China
+email: 1120193070@bit.edu.cn
 
 # ---------------- #
 #    Navigation    #
@@ -123,7 +123,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 # 参考：https://www.ppkanshu.com/index.php/post/4158.html
 gitalk:
-    owner: piterjia
+    owner: piterjia(original author)
     repo: blog-comments
     clientID: db388e97352eeaeafb30
     clientSecret: 14e93c15b35acb7ec88633e88c94154bdf8e847c
